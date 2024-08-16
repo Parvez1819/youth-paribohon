@@ -159,7 +159,7 @@ numberField.addEventListener('input', checkInputFields);
 
 // click next button and show the toast success
 
-// document.addEventListener('DOMContentLoaded', function () {
+
     const nextButton = document.getElementById('next-btn');
     const continueButton = document.getElementById('previous-btn');
 
@@ -172,18 +172,4 @@ numberField.addEventListener('input', checkInputFields);
         }
     }
 
-//     if (nextButton) {
-//         console.log(nextButton);
-//         nextButton.addEventListener('click', handleButtonClick);
-//     } else {
-//         console.error("Element not found: 'next-btn'");
-//     }
-
-//     if (continueButton) {
-//         console.log(continueButton);
-//         continueButton.addEventListener('click', handleButtonClick);
-//     } else {
-//         console.error("Element not found: 'previous-btn'");
-//     }
-// });
 
