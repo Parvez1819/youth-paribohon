@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Travels</title>
+
+    <!--tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/418099534c.js" crossorigin="anonymous"></script>
+    <!-- external css -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- toast section start-->
+    <div id="toast" class="  bg-[#918e8e] h-screen px-90 py-44 flex justify-center items-center">
+        <div class="toast toast-center bg-[#F2F1F1] rounded-2xl p-20">
+            <div class="flex justify-center mb-5">
+                <img src="./images/success.png" alt="">
+            </div>
+
+            <div class="text-center items-center mb-5">
+                <p class="text-xl text-black font-medium mb-3">Thank you for Booking Our Bus Seats. <br>
+                    We are working hard to find the best service and deals for you.
+
+                </p>
+                <p class="text-xl text-black font-light">Shortly you will find a confirmation in your email.</p>
+            </div>
+            <div class=" flex justify-center">
+                <button onclick="handleButtonClick(event)" id="previous-btn"
+                    class=" text-white text-lg font-medium rounded-full bg-[#27AE60] px-24 py-5">Continue</button>
+            </div>
+        </div>
+    </div>
+    <!-- toast section end -->
+
+    <script src="./script/utility.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+
+
+</html>
